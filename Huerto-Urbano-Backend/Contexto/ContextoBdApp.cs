@@ -20,6 +20,8 @@ namespace Huerto_Urbano_Backend.Contexto
         public DbSet<DetalleVenta> DetalleVenta { get; set; }
         public DbSet<Servicio> Servicio { get; set; }
         public DbSet<Asesoria> Asesoria { get; set; }
+        public DbSet<ComprasRealizadas> ComprasRealizadas { get; set; }
+        public DbSet<DetalleCompra> DetalleCompra { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
            // modelBuilder.Entity<Usuario>().HasKey(u => u.IdUsuario);

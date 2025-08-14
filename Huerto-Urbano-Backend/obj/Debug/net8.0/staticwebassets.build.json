@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"4X6DEoiADK576IwkqYooD30KLYaWiEZJD5LaNpcMnxo=","Source":"Huerto-Urbano-Backend","BasePath":"_content/Huerto-Urbano-Backend","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "a7Wf3pEKyjQzaSsCGmitmL5lho1WTG0pUuE1iTg0RGA=",
+  "Source": "Huerto-Urbano-Backend",
+  "BasePath": "_content/Huerto-Urbano-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

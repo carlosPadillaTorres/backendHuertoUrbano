@@ -88,6 +88,13 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
+// Migración automática solo para ContextoBdAdmin
+using (var scope = app.Services.CreateScope())
+{
+    var dbAdmin = scope.ServiceProvider.GetRequiredService<ContextoBdAdmin>();
+    dbAdmin.Database.Migrate();
+}
+
 // Configure the HTTP request pipeline.
 
 if (app.Environment.IsDevelopment())
