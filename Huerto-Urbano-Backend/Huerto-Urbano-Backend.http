@@ -1,0 +1,6 @@
+@Huerto_Urbano_Backend_HostAddress = http://localhost:4200
+
+GET {{Huerto_Urbano_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

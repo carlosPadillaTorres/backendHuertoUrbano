@@ -1,0 +1,1945 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Huerto-Urbano-Backend",
+    "version": "1.0"
+  },
+  "paths": {
+    "/inicioSesion": {
+      "post": {
+        "tags": [
+          "AutenticacionControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InicioUsuarioDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InicioUsuarioDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InicioUsuarioDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/cerrarSesion": {
+      "get": {
+        "tags": [
+          "AutenticacionControlador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/obtenerCiudades": {
+      "get": {
+        "tags": [
+          "CiudadControlador"
+        ],
+        "parameters": [
+          {
+            "name": "idEstado",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ciudad"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ciudad"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ciudad"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/obtenerClientes": {
+      "get": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "filtro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/registrarCliente": {
+      "post": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cliente"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cliente"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cliente"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cliente"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cliente"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cliente"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/obtenerCliente": {
+      "get": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/obtenerContactoCliente": {
+      "get": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/actualizarCliente": {
+      "put": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/eliminarCliente": {
+      "patch": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/reactivarCliente": {
+      "patch": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/cambioContraseniaClien": {
+      "post": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "viejaContrasenia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "nuevaContrasenia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/TokenRecuperacion": {
+      "patch": {
+        "tags": [
+          "ClienteControlador"
+        ],
+        "parameters": [
+          {
+            "name": "correoCliente",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/obtenerEmpleados": {
+      "get": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "filtro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Empleado"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Empleado"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Empleado"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Empleado/registrarEmpleado": {
+      "post": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpleadoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpleadoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpleadoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Empleado"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Empleado"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Empleado"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Empleado/obtenerEmpleado": {
+      "get": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/obtenerContactoEmpleado": {
+      "get": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/actualizarEmpleado": {
+      "put": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Empleado"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Empleado"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Empleado"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/eliminarEmpleado": {
+      "patch": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/reactivarEmpleado": {
+      "patch": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Empleado/cambioContraseniaEmp": {
+      "post": {
+        "tags": [
+          "EmpleadoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "viejaContrasenia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "nuevaContrasenia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/obtenerEstados": {
+      "get": {
+        "tags": [
+          "EstadoControlador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Estado"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Estado"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Estado"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Producto/obtenerProductos": {
+      "get": {
+        "tags": [
+          "ProductoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "filtro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Producto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Producto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Producto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Producto/registrarProducto": {
+      "post": {
+        "tags": [
+          "ProductoControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Producto/obtenerProducto": {
+      "get": {
+        "tags": [
+          "ProductoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Producto/actualizarProducto": {
+      "put": {
+        "tags": [
+          "ProductoControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Producto/eliminarProducto": {
+      "patch": {
+        "tags": [
+          "ProductoControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Proveedor/obtenerProveedores": {
+      "get": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "parameters": [
+          {
+            "name": "filtro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Proveedor"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Proveedor"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Proveedor"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Proveedor/registrarProveedor": {
+      "post": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProveedorDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProveedorDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProveedorDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Proveedor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Proveedor/obtenerProveedor": {
+      "get": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Proveedor/actualizarProveedor": {
+      "put": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Proveedor"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Proveedor"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Proveedor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Proveedor/eliminarProveedor": {
+      "patch": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Proveedor/reactivarProveedor": {
+      "patch": {
+        "tags": [
+          "ProveedorControlador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/obtenerUsuarios": {
+      "get": {
+        "tags": [
+          "UsuarioControlador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Usuario"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Usuario"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Usuario"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/UsuarioControlador": {
+      "post": {
+        "tags": [
+          "UsuarioControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Ventas/obtenerVentas": {
+      "get": {
+        "tags": [
+          "VentaControlador"
+        ],
+        "parameters": [
+          {
+            "name": "filtro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DetalleVenta"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DetalleVenta"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DetalleVenta"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Ventas/obtenerVentasCliente": {
+      "get": {
+        "tags": [
+          "VentaControlador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Venta"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Venta"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Venta"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Ventas/registrarVenta": {
+      "post": {
+        "tags": [
+          "VentaControlador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarVentaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarVentaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarVentaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Ciudad": {
+        "required": [
+          "nombreCiudad"
+        ],
+        "type": "object",
+        "properties": {
+          "idCiudad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreCiudad": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          },
+          "idEstado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "estado": {
+            "$ref": "#/components/schemas/Estado"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Cliente": {
+        "required": [
+          "persona",
+          "usuario"
+        ],
+        "type": "object",
+        "properties": {
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPersona": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/Persona"
+          },
+          "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuario": {
+            "$ref": "#/components/schemas/Usuario"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClienteDto": {
+        "type": "object",
+        "properties": {
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/PersonaDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DetalleVenta": {
+        "type": "object",
+        "properties": {
+          "idDetalleVenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idVenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "venta": {
+            "$ref": "#/components/schemas/Venta"
+          },
+          "idProducto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "producto": {
+            "$ref": "#/components/schemas/Producto"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precioUnitario": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Domicilio": {
+        "required": [
+          "calle",
+          "codigoPostal",
+          "colonia",
+          "numero"
+        ],
+        "type": "object",
+        "properties": {
+          "idDomicilio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "calle": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "numero": {
+            "maxLength": 5,
+            "minLength": 0,
+            "type": "string"
+          },
+          "colonia": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "codigoPostal": {
+            "maxLength": 5,
+            "minLength": 0,
+            "type": "string"
+          },
+          "idCiudad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ciudad": {
+            "$ref": "#/components/schemas/Ciudad"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DomicilioDto": {
+        "type": "object",
+        "properties": {
+          "idDomicilio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "calle": {
+            "type": "string",
+            "nullable": true
+          },
+          "numero": {
+            "type": "string",
+            "nullable": true
+          },
+          "colonia": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigoPostal": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCiudad": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Empleado": {
+        "required": [
+          "curp",
+          "fechaIngreso",
+          "puesto",
+          "rfc",
+          "salarioBruto"
+        ],
+        "type": "object",
+        "properties": {
+          "idEmpleado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "puesto": {
+            "maxLength": 45,
+            "minLength": 0,
+            "type": "string"
+          },
+          "curp": {
+            "maxLength": 18,
+            "minLength": 0,
+            "type": "string"
+          },
+          "rfc": {
+            "maxLength": 13,
+            "minLength": 0,
+            "type": "string"
+          },
+          "salarioBruto": {
+            "type": "number",
+            "format": "double"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaRenuncia": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idPersona": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/Persona"
+          },
+          "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuario": {
+            "$ref": "#/components/schemas/Usuario"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmpleadoDto": {
+        "required": [
+          "curp",
+          "puesto",
+          "rfc"
+        ],
+        "type": "object",
+        "properties": {
+          "idEmpleado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "puesto": {
+            "maxLength": 45,
+            "minLength": 0,
+            "type": "string"
+          },
+          "curp": {
+            "maxLength": 18,
+            "minLength": 0,
+            "type": "string"
+          },
+          "rfc": {
+            "maxLength": 13,
+            "minLength": 0,
+            "type": "string"
+          },
+          "salarioBruto": {
+            "type": "number",
+            "format": "double"
+          },
+          "fechaIngreso": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "persona": {
+            "$ref": "#/components/schemas/PersonaDto"
+          },
+          "usuario": {
+            "$ref": "#/components/schemas/Usuario"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Estado": {
+        "required": [
+          "nombreEstado"
+        ],
+        "type": "object",
+        "properties": {
+          "idEstado": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreEstado": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InicioUsuarioDto": {
+        "required": [
+          "contrasenia",
+          "nombreUsuario"
+        ],
+        "type": "object",
+        "properties": {
+          "nombreUsuario": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
+          },
+          "contrasenia": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Persona": {
+        "required": [
+          "apMaterno",
+          "apPaterno",
+          "email",
+          "fechaNacimiento",
+          "genero",
+          "idDomicilio",
+          "nombre",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "idPersona": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "apPaterno": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "apMaterno": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "telefono": {
+            "maxLength": 10,
+            "minLength": 10,
+            "type": "string"
+          },
+          "genero": {
+            "type": "string"
+          },
+          "idDomicilio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "domicilio": {
+            "$ref": "#/components/schemas/Domicilio"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PersonaDto": {
+        "type": "object",
+        "properties": {
+          "apPaterno": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "apMaterno": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "telefono": {
+            "maxLength": 10,
+            "minLength": 10,
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "string"
+          },
+          "idDomicilio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "domicilio": {
+            "$ref": "#/components/schemas/DomicilioDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Producto": {
+        "required": [
+          "descripcion",
+          "estatus",
+          "idProveedor",
+          "marca",
+          "nombreProducto",
+          "tipo"
+        ],
+        "type": "object",
+        "properties": {
+          "idProducto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreProducto": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "marca": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          },
+          "tipo": {
+            "maxLength": 3,
+            "minLength": 0,
+            "type": "string"
+          },
+          "cantidadTotal": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "costoUnidad": {
+            "type": "number",
+            "format": "double"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "idProveedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "proveedor": {
+            "$ref": "#/components/schemas/Proveedor"
+          },
+          "estatus": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoDto": {
+        "required": [
+          "descripcion",
+          "marca",
+          "nombreProducto",
+          "tipo"
+        ],
+        "type": "object",
+        "properties": {
+          "nombreProducto": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "marca": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          },
+          "tipo": {
+            "maxLength": 3,
+            "minLength": 0,
+            "type": "string"
+          },
+          "costoUnidad": {
+            "type": "number",
+            "format": "double"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "idProveedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "proveedor": {
+            "$ref": "#/components/schemas/Proveedor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductoVentaDto": {
+        "required": [
+          "cantidad",
+          "idProducto"
+        ],
+        "type": "object",
+        "properties": {
+          "idProducto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantidad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "precioUnitario": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Proveedor": {
+        "required": [
+          "email",
+          "empresa",
+          "fechaRegistro",
+          "rfc",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "idProveedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empresa": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "fechaRegistro": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaTermino": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "estatus": {
+            "type": "boolean"
+          },
+          "telefono": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "rfc": {
+            "maxLength": 12,
+            "minLength": 0,
+            "type": "string"
+          },
+          "idDomicilio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "domicilio": {
+            "$ref": "#/components/schemas/Domicilio"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProveedorDto": {
+        "required": [
+          "email",
+          "empresa",
+          "rfc",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "empresa": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "telefono": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "rfc": {
+            "maxLength": 12,
+            "minLength": 0,
+            "type": "string"
+          },
+          "domicilio": {
+            "$ref": "#/components/schemas/Domicilio"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarVentaDto": {
+        "required": [
+          "productos",
+          "total"
+        ],
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "productos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductoVentaDto"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "Usuario": {
+        "required": [
+          "contrasenia",
+          "nombreUsuario",
+          "rol"
+        ],
+        "type": "object",
+        "properties": {
+          "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombreUsuario": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
+          },
+          "token": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "estatus": {
+            "type": "boolean"
+          },
+          "contrasenia": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "rol": {
+            "maxLength": 4,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Venta": {
+        "type": "object",
+        "properties": {
+          "idVenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cliente": {
+            "$ref": "#/components/schemas/Cliente"
+          },
+          "fechaVenta": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "estatus": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
