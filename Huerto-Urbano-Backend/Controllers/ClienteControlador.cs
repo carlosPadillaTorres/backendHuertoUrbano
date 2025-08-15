@@ -61,7 +61,6 @@ namespace Huerto_Urbano_Backend.Controllers
                 });
             }
 
-
             try
             {
                 // Evitar que EF intente interpretar la expresión completa
@@ -75,7 +74,7 @@ namespace Huerto_Urbano_Backend.Controllers
                 if (nombreUsuario != null)
                 {
                     Console.WriteLine("El nombre de usuario ya existe: " + nombreUsuario);
-                    return BadRequest("El nombre de usuario ya existe. Por favor, elige otro nombre de usuario.");
+                    return BadRequest(new { mensaje = "El nombre de usuario ya existe. Por favor, elige otro nombre de usuario." });
                 }
                 cliente.Usuario.Contrasenia = CifradoHash.Cifrar(cliente.Usuario.Contrasenia);
                 _contextClient.Cliente.Add(cliente);

@@ -68,7 +68,7 @@ namespace Huerto_Urbano_Backend.Controllers
         
         [HttpGet]
         [Route("obtenerVentasCliente")]
-        [Authorize]
+        
         public IActionResult ObtenerVentasCliente()
         {
             try
@@ -113,7 +113,7 @@ namespace Huerto_Urbano_Backend.Controllers
                                  }).ToList()
                          })
                          .ToList();
-                Console.WriteLine(ventas[0].Total);
+                
 
                 return Ok(ventas);
             }
@@ -127,29 +127,29 @@ namespace Huerto_Urbano_Backend.Controllers
 
         [HttpPost]
         [Route("registrarVenta")]
-        [Authorize(Roles="CLIE")] 
+
         public IActionResult RegistrarVenta([FromBody] RegistrarVentaDto ventaDto)
         {
             using var transaction = _contextClien.Database.BeginTransaction();
-
+            Console.WriteLine(ventaDto.Total);
             try
             {
-                // 1️⃣ Obtener idUsuario del token
+                //  Obtener idUsuario del token
                 var idUsuarioClaim = User.FindFirstValue("idUsuario");
                 if (string.IsNullOrEmpty(idUsuarioClaim))
                 {
+                    Console.WriteLine("No se pudo obtener el idUsuario del token");
                     return Unauthorized("No se pudo obtener el idUsuario del token.");
                 }
                 int idUsuario = int.Parse(idUsuarioClaim);
 
-                // 2️⃣ Obtener idCliente desde el idUsuario
+                //  Obtener idCliente desde el idUsuario
                 var cliente = _contextClien.Cliente.FirstOrDefault(c => c.IdUsuario == idUsuario);
                 if (cliente == null)
                 {
                     return NotFound("No se encontró el cliente asociado al usuario.");
                 }
 
-                // 3️⃣ Crear el registro de la venta
                 var nuevaVenta = new Venta
                 {
                     IdCliente = cliente.IdCliente,
@@ -161,9 +161,14 @@ namespace Huerto_Urbano_Backend.Controllers
                 _contextClien.Venta.Add(nuevaVenta);
                 _contextClien.SaveChanges();
 
-                // 4️⃣ Registrar cada detalle y lote
                 foreach (var prod in ventaDto.Productos)
                 {
+                    var producto = _contextClien.Producto
+                            .FirstOrDefault(p => p.IdProducto == prod.IdProducto);
+
+                    producto.CantidadTotal = producto.CantidadTotal - prod.Cantidad;
+                    _contextClien.Producto.Update(producto);
+
                     // Insertar en detalleVenta
                     var detalle = new DetalleVenta
                     {
@@ -173,20 +178,8 @@ namespace Huerto_Urbano_Backend.Controllers
                         PrecioUnitario = prod.PrecioUnitario
                     };
                     _contextClien.DetalleVenta.Add(detalle);
-
-                    // Insertar en loteProducto
-                    /*var lote = new LoteProducto
-                    {
-                        IdProducto = prod.IdProducto,
-                        FechaIngreso = DateTime.Now,
-                        CantidadLote = prod.Cantidad,
-                        CostoTotal = prod.PrecioUnitario * prod.Cantidad,
-                        Existencia = prod.Cantidad
-                    };
-                    _contextClien.LoteProducto.Add(lote);*/
                 }
 
-                // 5️⃣ Guardar cambios
                 _contextClien.SaveChanges();
 
                 // 6️⃣ Confirmar transacción

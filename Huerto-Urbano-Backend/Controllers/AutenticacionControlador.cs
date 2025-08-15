@@ -29,13 +29,13 @@ namespace Huerto_Urbano_Backend.Controllers
                     .FirstOrDefault(u => u.NombreUsuario == usuario.NombreUsuario && u.Contrasenia == usuario.Contrasenia);
 
                 //Console.WriteLine("Credenciales usuari2: " + usuarioEncontrado.Contrasenia + "  UN: " + usuarioEncontrado.NombreUsuario);
-
-
+                
+                Console.WriteLine("recibidio " + usuario);
+                Console.WriteLine("encontrado "+usuarioEncontrado);
                 if (usuarioEncontrado == null) return Unauthorized();
 
-                Console.WriteLine("Antes de tokenizar");
                 var token = ServicioToken.GenerateToken(usuarioEncontrado.IdUsuario, usuarioEncontrado.NombreUsuario, usuarioEncontrado.Rol);
-                Console.WriteLine("Después de tokenizar");
+                Console.WriteLine("Rol de usuario que ingresa: "+ (DecodificadorToken.DecodificarToken(token)).rol);
 
                 usuarioEncontrado.Token = token;
                 _context.Usuario.Update(usuarioEncontrado);
@@ -81,6 +81,7 @@ namespace Huerto_Urbano_Backend.Controllers
 
 
         [HttpGet("cerrarSesion")]
+        [Authorize]
         public IActionResult CerrarSesion()
         {
             Console.WriteLine("Cerrando sesión...");

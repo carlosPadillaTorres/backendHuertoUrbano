@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\ventacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\ventacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\proveedorcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\proveedorcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\autenticacioncontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\autenticacioncontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\dto\\usuariologeadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\dto\\usuariologeadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\recursos\\serviciotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\recursos\\serviciotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\ventacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\ventacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|c:\\users\\charl\\downloads\\uni_local\\cuatri 9\\web integral\\huerto-urbano-backend\\huerto-urbano-backend\\controllers\\empleadocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60E0BFF0-8462-4ACF-ADC4-C3B4A15D218D}|Huerto-Urbano-Backend\\Huerto-Urbano-Backend.csproj|solutionrelative:huerto-urbano-backend\\controllers\\empleadocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProveedorControlador.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\ProveedorControlador.cs",
+              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Controllers\\ProveedorControlador.cs",
+              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\ProveedorControlador.cs",
+              "RelativeToolTip": "Huerto-Urbano-Backend\\Controllers\\ProveedorControlador.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T09:31:17.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\appsettings.json",
+              "RelativeToolTip": "Huerto-Urbano-Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-14T05:13:08.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Models\\Venta.cs",
+              "RelativeToolTip": "Huerto-Urbano-Backend\\Models\\Venta.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:47:53.611Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioLogeadoDto.cs",
-              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Dto\\UsuarioLogeadoDto.cs",
-              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Dto\\UsuarioLogeadoDto.cs",
-              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Dto\\UsuarioLogeadoDto.cs",
-              "RelativeToolTip": "Huerto-Urbano-Backend\\Dto\\UsuarioLogeadoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAPAAAAAAAAAA==",
+              "Title": "ClienteControlador.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\ClienteControlador.cs",
+              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Controllers\\ClienteControlador.cs",
+              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\ClienteControlador.cs",
+              "RelativeToolTip": "Huerto-Urbano-Backend\\Controllers\\ClienteControlador.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA2wD0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T05:48:37.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T01:21:27.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServicioToken.cs",
-              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Recursos\\ServicioToken.cs",
-              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Recursos\\ServicioToken.cs",
-              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Recursos\\ServicioToken.cs",
-              "RelativeToolTip": "Huerto-Urbano-Backend\\Recursos\\ServicioToken.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwDQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T05:16:48.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Program.cs",
               "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Program.cs",
               "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Program.cs",
               "RelativeToolTip": "Huerto-Urbano-Backend\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAE4AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T03:16:26.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T03:16:26.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AutenticacionControlador.cs",
               "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\AutenticacionControlador.cs",
               "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Controllers\\AutenticacionControlador.cs",
               "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\AutenticacionControlador.cs",
               "RelativeToolTip": "Huerto-Urbano-Backend\\Controllers\\AutenticacionControlador.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwD0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T06:13:57.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T06:13:57.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "VentaControlador.cs",
               "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\VentaControlador.cs",
               "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Controllers\\VentaControlador.cs",
               "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\VentaControlador.cs",
               "RelativeToolTip": "Huerto-Urbano-Backend\\Controllers\\VentaControlador.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwFgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T05:56:39.899Z"
+              "WhenOpened": "2025-08-12T05:56:39.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmpleadoControlador.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\EmpleadoControlador.cs",
+              "RelativeDocumentMoniker": "Huerto-Urbano-Backend\\Controllers\\EmpleadoControlador.cs",
+              "ToolTip": "C:\\Users\\charl\\Downloads\\UNI_Local\\Cuatri 9\\Web Integral\\Huerto-Urbano-Backend\\Huerto-Urbano-Backend\\Controllers\\EmpleadoControlador.cs",
+              "RelativeToolTip": "Huerto-Urbano-Backend\\Controllers\\EmpleadoControlador.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwCgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:04:01.803Z"
             }
           ]
         }

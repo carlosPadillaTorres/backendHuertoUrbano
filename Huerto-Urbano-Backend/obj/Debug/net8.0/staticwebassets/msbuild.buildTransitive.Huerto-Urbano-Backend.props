@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Huerto-Urbano-Backend.props" />
-</Project>

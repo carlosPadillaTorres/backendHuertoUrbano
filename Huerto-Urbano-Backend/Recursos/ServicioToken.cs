@@ -32,7 +32,9 @@ namespace Huerto_Urbano_Backend.Recursos
             {
                 new Claim("idUsuario", id.ToString()),
                 new Claim("nombreUsuario", nombre),
+                new Claim("rol", rol),
                 new Claim(ClaimTypes.Role, rol)
+
             };
                 try
                 {

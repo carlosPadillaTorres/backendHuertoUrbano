@@ -20,16 +20,10 @@ namespace Huerto_Urbano_Backend.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         [Route("obtenerProveedores")]
         public ActionResult<IEnumerable<Proveedor>> ObtenerProveedores([FromQuery] string? filtro)
         {
-            var id = User.FindFirst("idUsuario")?.Value;
-            var nombre = User.FindFirst("nombreUsuario")?.Value;
-            var rol = User.FindFirst(ClaimTypes.Role)?.Value;
-
-            Console.WriteLine("id: " + id + "\n nombre: " + nombre+"\n rol: " + rol);
-
+            
             var proveedores = string.IsNullOrWhiteSpace(filtro)
                 ? _context.Proveedor.Include(p => p.Domicilio)
                                     .Include(p => p.Domicilio.Ciudad)

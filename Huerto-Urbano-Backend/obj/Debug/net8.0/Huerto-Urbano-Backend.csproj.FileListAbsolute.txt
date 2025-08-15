@@ -1,6 +1,5 @@
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\appsettings.json
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\Huerto-Urbano-Backend.staticwebassets.endpoints.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\Huerto-Urbano-Backend.exe
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\Huerto-Urbano-Backend.deps.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\Huerto-Urbano-Backend.runtimeconfig.json
@@ -118,21 +117,15 @@ C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\H
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.csproj.AssemblyReference.cache
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.AssemblyInfoInputs.cache
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.AssemblyInfo.cs
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.csproj.CoreCompileInputs.cache
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\scopedcss\bundle\Huerto-Urbano-Backend.styles.css
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-U.32963351.Up2Date
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.dll
 C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\refint\Huerto-Urbano-Backend.dll
@@ -295,3 +288,11 @@ D:\9no_cuatri\datos\proyecto\charly_back\backendHuertoUrbano\Huerto-Urbano-Backe
 D:\9no_cuatri\datos\proyecto\charly_back\backendHuertoUrbano\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.pdb
 D:\9no_cuatri\datos\proyecto\charly_back\backendHuertoUrbano\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.genruntimeconfig.cache
 D:\9no_cuatri\datos\proyecto\charly_back\backendHuertoUrbano\Huerto-Urbano-Backend\obj\Debug\net8.0\ref\Huerto-Urbano-Backend.dll
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\Huerto-Urbano-Backend.sourcelink.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\bin\Debug\net8.0\Huerto-Urbano-Backend.staticwebassets.endpoints.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\charl\Downloads\UNI_Local\Cuatri 9\Web Integral\Huerto-Urbano-Backend\Huerto-Urbano-Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json

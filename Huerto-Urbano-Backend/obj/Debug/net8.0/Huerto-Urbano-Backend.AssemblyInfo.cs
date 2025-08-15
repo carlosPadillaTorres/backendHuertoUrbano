@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Huerto-Urbano-Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b973e7b9bc0bcf3fb45fb9c5442bede67db5295f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26090d2caf30e4edb03377c8e1e332c9c8300409")]
 [assembly: System.Reflection.AssemblyProductAttribute("Huerto-Urbano-Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Huerto-Urbano-Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

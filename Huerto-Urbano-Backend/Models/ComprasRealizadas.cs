@@ -21,6 +21,8 @@ namespace Huerto_Urbano_Backend.Models
         public string NumeroOrden { get; set; }
 
         public bool Estatus { get; set; } = false;
+
+        public int? idEmpleado { get; set; }
     }
 
 }

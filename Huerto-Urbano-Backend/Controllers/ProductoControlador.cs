@@ -24,9 +24,10 @@ namespace Huerto_Urbano_Backend.Controllers
         public ActionResult<IEnumerable<Producto>> ObtenerProductos([FromQuery] string? filtro)
         {
             var productos = string.IsNullOrWhiteSpace(filtro)
-                ? _context.Producto.ToList()
+                ? _context.Producto.Include(p => p.Proveedor).ToList()
                 : _context.Producto
                     .Where(p => EF.Functions.Like(p.NombreProducto, $"%{filtro.Trim()}%")).
+                    Include(p => p.Proveedor).
                     ToList();
 
             return productos;
